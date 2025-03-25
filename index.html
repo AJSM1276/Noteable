@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Noteable Home Page</title>
+    <link rel="stylesheet" type="text/css" href="./css/main.css" />
+    <link rel="stylesheet" type="text/css" href="./css/header_footer.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="header-container">
+        <!-- Logo/Branding -->
+        <div class="header-brand">
+          <a href="/" class="logo-link">
+            <span class="logo-icon"></span>
+            <span class="logo-text">Noteable</span>
+          </a>
+        </div>
+
+        <!-- Main Navigation -->
+        <nav class="main-nav" id="mainNav">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="/lessons"><span>Lessons</span></a>
+            </li>
+            <li class="nav-item">
+              <a href="/tutors"><span>About</span></a>
+            </li>
+            <li class="nav-item">
+              <a href="/instruments"><span>Instruments</span></a>
+            </li>
+            <li class="nav-item">
+              <a href="/pricing"><span>Pricing</span></a>
+            </li>
+            <li class="nav-item">
+              <a href="/contact"><span>Blog</span></a>
+            </li>
+          </ul>
+        </nav>
+
+        <!-- User Actions -->
+        <div class="header-actions">
+          <a href="/register" class="btn-register">Book A Lesson</a>
+        </div>
+
+        <!-- Mobile Menu Toggle -->
+        <button
+          class="mobile-menu-toggle"
+          id="mobileMenuToggle"
+          aria-label="Menu"
+          aria-expanded="false"
+        >
+          <span class="menu-bar"></span>
+          <span class="menu-bar"></span>
+          <span class="menu-bar"></span>
+        </button>
+      </div>
+    </header>
+    <section class="hero">
+      <div class="hero-container">
+        <div class="hero-content">
+          <h1 class="hero-title">
+            Unlock Your <span class="highlight">Musical Potential</span>
+          </h1>
+          <p class="hero-subtitle">
+            1-on-1 online lessons tailored to your goals—whether you're a
+            beginner or refining advanced techniques.
+          </p>
+
+          <ul class="hero-benefits">
+            <li><i class="fas fa-check-circle"></i> Certified Tutor</li>
+            <li><i class="fas fa-check-circle"></i> Flexible scheduling</li>
+            <li>
+              <i class="fas fa-check-circle"></i> Performance opportunities
+            </li>
+            <li>
+              <i class="fas fa-check-circle"></i> 30-day satisfaction guarantee
+            </li>
+          </ul>
+
+          <div class="hero-cta">
+            <a href="/free-trial" class="btn btn-primary"
+              >Book Free Trial Lesson</a
+            >
+            <a href="/tutors" class="btn btn-secondary"
+              >Meet Aldrich <i class="fas fa-arrow-right"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="hero-image">
+          <img
+            src="https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+            alt="Happy music student learning guitar"
+            class="hero-img"
+          />
+          <div class="hero-review">
+            <div class="stars">★★★★★</div>
+            <p>
+              "My daughter improved faster in 3 months than a year of
+              self-study!"
+            </p>
+            <span>- Sarah K., Parent</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="site-footer">
+      <div class="footer-container">
+        <!-- Main footer content -->
+        <div class="footer-main">
+          <div class="footer-brand">
+            <h3>Noteable</h3>
+            <p style="padding-right: 50px">
+              Discover, learn, and share the music you love.
+            </p>
+            <div class="social-links">
+              <a href="#" id="discord"><i class="fa-brands fa-discord"></i></a>
+              <a href="#" id="twitter"><i class="fa-brands fa-twitter"></i></a>
+              <a href="#" id="instagram"><i class="fab fa-instagram"></i></a>
+              <a href="#" id="spotify"><i class="fab fa-spotify"></i></a>
+              <a href="#" id="youtube"><i class="fab fa-youtube"></i></a>
+            </div>
+          </div>
+
+          <!-- Footer navigation links -->
+          <div class="footer-nav">
+            <div class="nav-column">
+              <h4>Explore</h4>
+              <ul>
+                <li>
+                  <a href="/discover"><span>Tutoring</span></a>
+                </li>
+                <li>
+                  <a href="/genres"><span>Courses</span></a>
+                </li>
+                <li>
+                  <a href="/charts"><span>Cheat-Sheets</span></a>
+                </li>
+                <li>
+                  <a href="/new-releases"><span>Merch</span></a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="nav-column">
+              <h4>Help</h4>
+              <ul>
+                <li>
+                  <a href="/profile"><span>Contact</span></a>
+                </li>
+                <li>
+                  <a href="/playlists"><span>FAQ</span></a>
+                </li>
+                <li>
+                  <a href="/favorites"><span>Payment Help</span></a>
+                </li>
+                <li>
+                  <a href="/settings"><span>Technical</span></a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="nav-column">
+              <h4>Company</h4>
+              <ul>
+                <li>
+                  <a href="/about"><span>About Us</span></a>
+                </li>
+                <li>
+                  <a href="/blog"><span>Blog</span></a>
+                </li>
+                <li>
+                  <a href="/careers"><span>Careers</span></a>
+                </li>
+                <li>
+                  <a href="/contact"><span>Contact</span></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Footer bottom -->
+        <div class="footer-bottom">
+          <div class="copyright">
+            &copy; 2025 Noteable. All rights reserved.
+          </div>
+          <div class="legal-links">
+            <a href="/privacy"><span>Privacy Policy</span></a>
+            <a href="/terms"><span>Terms of Service</span></a>
+            <a href="/cookies"><span>Cookie Policy</span></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="./main.js"></script>
+  </body>
+</html>
