@@ -37,6 +37,12 @@
 
 .logo-text {
   color: #ffffff; /* Simple white text as requested */
+  transition: all 0.3s ease;
+}
+
+.logo-text:hover {
+  color: #1db954; /* Green color on hover */
+  transition: all 0.3s ease;
 }
 
 /* Main Navigation */
